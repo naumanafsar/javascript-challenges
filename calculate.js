@@ -14,22 +14,22 @@ function subNums()
       result = document.getElementById("res");
       res.innerHTML = x-y;
     }
-
 function mulNums()
     {
       x = document.getElementById("n1").value;
       y = document.getElementById("n2").value;
+
       result = document.getElementById("res");
       res.innerHTML = x*y;
     }
 function divNums()
-{
-  x = document.getElementById("n1").value;
-  y = document.getElementById("n2").value;
+    {
+      x = document.getElementById("n1").value;
+      y = document.getElementById("n2").value;
 
-  document.getElementById("res");
-  res.innerHTML = x/y;
-}
+      document.getElementById("res");
+      res.innerHTML = x/y;
+    }
 
 // Make a new file name with the index.html and paste the following code from line 36 to line 64 there to see the results!
 /*
